@@ -1,7 +1,7 @@
 import sys
 sys.path.append("/Users/haison/Downloads/ky7/TestFTP/PBL4")
 
-from model.FTP.FTP_Client import FTPClient
+from model.FTP.FTP_client import FTPClient
 
 class FTPController:
     def login_ftp(self, username, password):

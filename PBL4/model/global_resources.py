@@ -3,6 +3,7 @@ import sys
 sys.path.append("/Users/haison/Downloads/ky7/TestFTP/PBL4")
 
 from model.FTP.FTP_handler import FTPHandler
+from model.TFTP.TFTP_handler import TFTPHandler
 import paramiko
 
 
@@ -14,7 +15,7 @@ directoryIMG = "/Users/haison/Downloads/ky7/TestFTP/PBL4/view/IMG/"
 filenamelist= ["doc", "document", "docx", "file", "folder", "jpeg", "jpg", "pdf", "png", "sourcecode", "sql", "xls", "zip", "xlsx"]
 
 ftp = FTPHandler(host, portFTP)
-
+tftp = TFTPHandler(host)
 #Chieu rong va chieu cao cua so chinh
 x = 1000
 y = 700 

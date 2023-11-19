@@ -1,7 +1,7 @@
 import sys
 sys.path.append("/Users/haison/Downloads/ky7/TestFTP/PBL4")
 
-from model.ssh_handler import SSHHandler
+from model.SSH.SSH_client import SSHHandler
 from model.global_resources import UsernameSSH
 from model.global_resources import UsernameSSH_Root
 
